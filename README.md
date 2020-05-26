@@ -14,7 +14,7 @@ Para utilizar a sua collection do Firebase:
 String databaseURL = "https://aps2020especies.firebaseio.com/";
 ```
 
-3) Utilizando o console do Firebase, crie uma collecion com a seguinte estrutura:
+3) Utilizando o console do Firebase, crie uma collection com a seguinte estrutura:
 ```
     id: String;
     nome: String;
@@ -25,7 +25,7 @@ String databaseURL = "https://aps2020especies.firebaseio.com/";
 
 ```/src/main/java/model/UsuarioModel.java```
 
-* Para novas collecions, crie a estrutura no console do Firebase e também um model, no diretório:
+* Para novas collections, crie a estrutura no console do Firebase e também um model, no diretório:
 ```
 /src/main/java/model
 ```
