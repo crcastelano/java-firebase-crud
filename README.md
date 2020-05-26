@@ -1,5 +1,6 @@
 # java-firebase-crud
 Projeto em Java Swing para operações de CRUD (Create, Read, Update e Delete) no banco de dados do Google Firebase.
+ ![](./tela.PNG)
 
 Para utilizar a sua collection do Firebase:
 
