@@ -14,12 +14,14 @@ import javax.swing.JOptionPane;
 public class Conexao {
 
     public static void initFirebase() {
+        String databaseURL = "https://aps2020especies.firebaseio.com/";
+
         FileInputStream refreshToken = null;
         try {
             refreshToken = new FileInputStream("credentials.json");
             FirebaseOptions options = new FirebaseOptions.Builder()
                     .setCredentials(GoogleCredentials.fromStream(refreshToken))
-                    .setDatabaseUrl("https://aps2020especies.firebaseio.com/")
+                    .setDatabaseUrl(databaseURL)
                     .build();
             FirebaseApp.initializeApp(options);
         } catch (FileNotFoundException ex) {
